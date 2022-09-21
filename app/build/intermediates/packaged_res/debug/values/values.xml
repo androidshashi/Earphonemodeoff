@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="color_gray">#FACCCCCC</color>
+    <color name="color_green">#36F459</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="ic_launcher_background">#FCB00B</color>
+    <color name="purple_200">#ff7700</color>
+    <color name="purple_500">#F2A30F</color>
+    <color name="purple_700">#D9831A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="_0">0%</string>
+    <string name="app_name">Earphone mode off</string>
+    <string name="click_go_button_after_scanning_is_completed">Click Go button after scanning is completed</string>
+    <string name="click_test_button_to_test_sound">Click test button to test sound</string>
+    <string name="click_to_change">Click to change</string>
+    <string name="communication">Communication</string>
+    <string name="device_alert"><![CDATA[In latest version android 12 app is not functioning properly. We are currently working in new version with the fix. Sorry for the inconvenience]]></string>
+    <string name="dialer">Dialer</string>
+    <string name="earphone_mode_is_off">Earphone mode is off</string>
+    <string name="go">Go</string>
+    <string name="help_feedback">Help</string>
+    <string name="message">Message</string>
+    <string name="method_1">Method 1</string>
+    <string name="method_2">Method 2</string>
+    <string name="nav_close">close</string>
+    <string name="nav_header_title">Earphone Mode Off</string>
+    <string name="nav_open">open</string>
+    <string name="note_this_method_is_route_the_audio_to_speaker_or_earphone_nuse_on_off_switch_for_routing_audio">Note:-This method is route the audio to speaker or earphone.\nUse on/off switch for routing audio.</string>
+    <string name="note_this_method_to_change_system_setting_to_speaker_mode">Note:-This method to change system setting to speaker mode</string>
+    <string name="please_keep_app_running_in_the_background_for_uninterrupted_sound_nnote_some_devices_showing_earphone_plugged_in_is_a_hardware_problem_3_5_jack_problem_we_use_route_earphone_3_5mm_jack_audio_to_mobile_phone_speaker_nif_this_app_does_not_support_your_device_please_wait_for_next_update_we_are_working_hard_to_make_this_app_support_all_mobile_hardware_devices">Please keep app running in the background for uninterrupted sound.\nNOTE:-Some devices showing earphone plugged in is a hardware problem(3.5 jack problem). We use route earphone 3.5mm jack audio to mobile phone speaker. If this app does not support your device. Please wait for next update. We are working hard to make this app support all mobile hardware devices.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="reset">Reset</string>
+    <string name="rete_us">Rate Us</string>
+    <string name="scanning_please_wait">Scanning please wait..</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="stop">Stop</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="test">Test</string>
+    <string name="video_tutorial">Video Tutorial</string>
+    <style name="Theme.EarphoneModeOff" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.EarphoneModeOff.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.EarphoneModeOff.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.EarphoneModeOff.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Earphone Mode Off</string>
+    <string name="rete_us">Rate Us</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="help_feedback">Help</string>
+    <string name="nav_header_title">Earphone Mode Off</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="click_go_button_after_scanning_is_completed">Click Go button after scanning is completed</string>
+    <string name="earphone_mode_is_off">Earphone mode is off</string>
+    <string name="_0">0%</string>
+    <string name="go">Go</string>
+    <string name="please_keep_app_running_in_the_background_for_uninterrupted_sound_nnote_some_devices_showing_earphone_plugged_in_is_a_hardware_problem_3_5_jack_problem_we_use_route_earphone_3_5mm_jack_audio_to_mobile_phone_speaker_nif_this_app_does_not_support_your_device_please_wait_for_next_update_we_are_working_hard_to_make_this_app_support_all_mobile_hardware_devices">Please keep app running in the background for uninterrupted sound.\nNOTE:-Some devices showing earphone plugged in is a hardware problem(3.5 jack problem). We use route earphone 3.5mm jack audio to mobile phone speaker. If this app does not support your device. Please wait for next update. We are working hard to make this app support all mobile hardware devices.</string>
+    <string name="message">Message</string>
+    <string name="click_to_change">Click to change</string>
+    <string name="note_this_method_to_change_system_setting_to_speaker_mode">Note:-This method to change system setting to speaker mode</string>
+    <string name="method_2">Method 2</string>
+    <string name="note_this_method_is_route_the_audio_to_speaker_or_earphone_nuse_on_off_switch_for_routing_audio">Note:-This method is route the audio to speaker or earphone.\nUse on/off switch for routing audio.</string>
+    <string name="reset">Reset</string>
+    <string name="dialer">Dialer</string>
+    <string name="test">Test</string>
+    <string name="stop">Stop</string>
+    <string name="click_test_button_to_test_sound">Click test button to test sound</string>
+    <string name="method_1">Method 1</string>
+    <string name="device_alert"><![CDATA[In latest version android 12 app is not functioning properly. We are currently working in new version with the fix. Sorry for the inconvenience]]></string>
+    <string name="video_tutorial">Video Tutorial</string>
+    <string name="communication">Communication</string>
+    <string name="scanning_please_wait">Scanning please wait..</string>
+</resources>
