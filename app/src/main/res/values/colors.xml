@@ -11,4 +11,5 @@
     <color name="color_red">#FF0000</color>
     <color name="color_yellow">#FFEB3B</color>
     <color name="color_gray">#FACCCCCC</color>
+    <color name="color_round_btn_bg">@color/purple_700</color>
 </resources>

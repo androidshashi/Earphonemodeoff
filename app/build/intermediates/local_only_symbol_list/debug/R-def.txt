@@ -6,6 +6,7 @@ color black
 color color_gray
 color color_green
 color color_red
+color color_round_btn_bg
 color color_yellow
 color ic_launcher_background
 color purple_200
@@ -17,6 +18,8 @@ color white
 drawable chip_image
 drawable circular_progress_bar
 drawable circular_shape
+drawable dialog_bg
+drawable go
 drawable green_circle
 drawable ic_baseline_close_16
 drawable ic_baseline_correct_16
@@ -34,6 +37,7 @@ drawable textview_bg
 drawable textview_bg_2
 drawable textview_bg_3
 drawable thumb_selector
+drawable thumbnail_video
 drawable track_selector
 id action_share
 id alertTV
@@ -44,9 +48,12 @@ id bannerLayout
 id btnLL
 id button
 id button2
+id cardView
 id clickToChangeBtn
+id constraintLayout3
 id dialerBtn
 id dialogProgress
+id divider
 id drawer_layout
 id earphoneLine
 id earphoneLine1
@@ -60,12 +67,12 @@ id imageView2
 id imageView3
 id imageView7
 id mainContentLayout
+id materialButton
 id messageTV
 id nav_privacy_policy
 id nav_rate_us
 id nav_share_this_app
 id nav_tnc
-id nav_tutorial
 id nav_view
 id progressText
 id progress_bar
@@ -79,13 +86,17 @@ id speakerLine2
 id speakerSwitch
 id testBtn
 id textView
+id textView10
 id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 id textView7
 id textView8
 id textView9
+id thumbnail_imageview
+id thumbnail_title
 id title
 id toolbar
 layout activity_earphone_on_off
@@ -95,6 +106,7 @@ layout activity_welcome
 layout app_bar_main
 layout content_main
 layout nav_header_main
+layout popup
 layout progress_dialog
 menu activity_main_drawer
 menu main
@@ -130,6 +142,7 @@ string stop
 string terms_and_conditions
 string test
 string video_tutorial
+style RoundButton
 style Theme.EarphoneModeOff
 style Theme.EarphoneModeOff.AppBarOverlay
 style Theme.EarphoneModeOff.NoActionBar

@@ -317,9 +317,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_baseline_share_24" />
-                            <entry key="sourceFile" value="E:\Earphonemodeoff" />
+                            <entry key="outputName" value="wave" />
+                            <entry key="sourceFile" value="C:\Users\91920\Downloads\wave (1).svg" />
                           </map>
                         </option>
                       </PersistentState>

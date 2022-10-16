@@ -109,6 +109,7 @@ class EarphoneOnOffActivity : AppCompatActivity() {
 
     private fun initViews() {
         mAudioMgr = getSystemService(Context.AUDIO_SERVICE) as AudioManager
+        binding.alertTV.visible(aboveSDK30())
     }
 
     private fun listeners() {

@@ -11,7 +11,7 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -40,27 +40,20 @@
             android:visibility="visible" />
 
         <androidx.cardview.widget.CardView
-            android:layout_width="80dp"
             android:id="@+id/goCardView"
+            android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerInParent="true"
-            android:visibility="gone"
-            app:cardBackgroundColor="@color/purple_500"
+            android:visibility="visible"
             app:cardCornerRadius="1000dp"
             app:cardElevation="20dp">
 
-            <TextView
+            <ImageView
                 android:id="@+id/goTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:elevation="30dp"
-                android:gravity="center"
-                android:padding="8dp"
-                android:text="@string/go"
-                android:textColor="@color/white"
-                android:textSize="40sp"
-                android:textStyle="bold" />
+                android:src="@drawable/go" />
         </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
@@ -97,13 +90,12 @@
         android:id="@+id/scanningTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:text="@string/scanning_please_wait"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
     <TextView
         android:id="@+id/textView3"
@@ -121,21 +113,5 @@
         app:layout_constraintBottom_toTopOf="@+id/bannerContainerLL"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/alertTV"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/textview_bg_2"
-        android:visibility="visible"
-        android:text="@string/device_alert"
-        android:textColor="@color/white"
-        android:padding="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -21794,7 +21794,6 @@ com.google.android.material.internal.NavigationMenuPresenter:
     private static final java.lang.String STATE_ADAPTER
     private static final java.lang.String STATE_HEADER
     private static final java.lang.String STATE_HIERARCHY
-    public android.view.View getHeaderView(int)
     public boolean isBehindStatusBar()
     public void removeHeaderView(android.view.View)
     public void setCallback(androidx.appcompat.view.menu.MenuPresenter$Callback)
@@ -21892,7 +21891,6 @@ com.google.android.material.navigation.NavigationView:
     private static final int PRESENTER_NAVIGATION_VIEW_ID
     public void <init>(android.content.Context)
     public void addHeaderView(android.view.View)
-    public android.view.View getHeaderView(int)
     public void removeHeaderView(android.view.View)
 com.google.android.material.navigationrail.NavigationRailItemView
 com.google.android.material.navigationrail.NavigationRailMenuView
@@ -22541,6 +22539,7 @@ com.shash.earphonemodeoff.databinding.ContentMainBinding:
     public static com.shash.earphonemodeoff.databinding.ContentMainBinding inflate(android.view.LayoutInflater)
     public static com.shash.earphonemodeoff.databinding.ContentMainBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean)
 com.shash.earphonemodeoff.databinding.NavHeaderMainBinding
+com.shash.earphonemodeoff.databinding.PopupBinding
 com.shash.earphonemodeoff.databinding.ProgressDialogBinding
 com.shash.earphonemodeoff.utils.ConstantsKt
 com.shash.earphonemodeoff.utils.ConsumableLiveData

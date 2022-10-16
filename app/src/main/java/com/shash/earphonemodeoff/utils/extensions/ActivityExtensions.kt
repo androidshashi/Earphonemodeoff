@@ -8,6 +8,7 @@ import android.provider.Settings
 import android.util.Log
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
+import com.shash.earphonemodeoff.BuildConfig
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -89,6 +90,9 @@ private fun Activity.openSettings() {
 
 fun Activity.expireDemoApp(dateString: String):Boolean
 {
+    //Ignore this check in release version
+    if(!BuildConfig.DEBUG) return false
+
    val sfd = SimpleDateFormat("dd-MM-yyyy hh:mm:ss",Locale.ROOT)
     val expDateInMilli = sfd.parse(dateString).time
     Log.d("adfs",expDateInMilli.toString())

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="color_gray">#FACCCCCC</color>
+    <color name="color_green">#36F459</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_round_btn_bg">#FACCCCCC</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="purple_200">#ff7700</color>
+    <color name="purple_500">#F2A30F</color>
+    <color name="purple_700">#D9831A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
     <style name="Theme.EarphoneModeOff" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>

@@ -4,6 +4,77 @@
             "outputFile": "com.shash.earphonemodeoff.app-mergeDebugResources-35:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
+                    "source": "E:\\Earphonemodeoff\\app\\src\\main\\res\\values-night\\colors.xml",
+                    "from": {
+                        "startLines": "7,12,9,10,13,11,4,2,3,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "287,513,373,420,561,465,149,57,103,195,241,330",
+                        "endColumns": "41,46,45,43,54,46,44,44,44,44,44,41",
+                        "endOffsets": "324,555,414,459,611,507,189,97,143,235,281,367"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "100,142,189,235,279,334,381,426,471,516,561,606",
+                        "endColumns": "41,46,45,43,54,46,44,44,44,44,44,41",
+                        "endOffsets": "137,184,230,274,329,376,421,466,511,556,601,643"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91920\\.gradle\\caches\\transforms-3\\25fdb4b5729408368178052da17f5e34\\transformed\\appcompat-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,58",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "648,718,802,886,982,1084,1186,4538",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "713,797,881,977,1079,1181,1275,4622"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\91920\\.gradle\\caches\\transforms-3\\9d6778b007a14e0c6659deb3da7018f2\\transformed\\material-1.6.1\\res\\values-night-v8\\values-night-v8.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1884,1959,2070,2159,2260,2367,2474,2573,2676,2764,2888,2990,3092,3208,3310,3424,3552,3668,3790,3926,4046,4180,4300,4412,4627,4744,4868,4998,5120,5258,5392,5508",
+                        "endColumns": "74,110,88,100,106,106,98,102,87,123,101,101,115,101,113,127,115,121,135,119,133,119,111,125,116,123,129,121,137,133,115,119",
+                        "endOffsets": "1954,2065,2154,2255,2362,2469,2568,2671,2759,2883,2985,3087,3203,3305,3419,3547,3663,3785,3921,4041,4175,4295,4407,4533,4739,4863,4993,5115,5253,5387,5503,5623"
+                    }
+                },
+                {
+                    "source": "E:\\Earphonemodeoff\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "822"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1280",
+                        "endLines": "33",
+                        "endColumns": "12",
+                        "endOffsets": "1879"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\91920\\.gradle\\daemon\\7.3.3\\com.shash.earphonemodeoff.app-mergeDebugResources-35:\\values-night-v8\\values-night-v8.xml",
+            "map": [
+                {
                     "source": "C:\\Users\\91920\\.gradle\\caches\\transforms-3\\25fdb4b5729408368178052da17f5e34\\transformed\\appcompat-1.5.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",

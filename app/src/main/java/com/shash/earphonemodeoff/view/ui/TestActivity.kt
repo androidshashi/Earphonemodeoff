@@ -1,11 +1,17 @@
 package com.shash.earphonemodeoff.view.ui
 
+import android.app.Dialog
 import android.content.Context
+import android.graphics.drawable.ColorDrawable
 import android.media.AudioManager
 import android.os.Bundle
 import android.util.Log
+import android.view.Window
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.button.MaterialButton
+import com.shash.earphonemodeoff.R
 import com.shash.earphonemodeoff.databinding.ActivityTestBinding
 
 
@@ -50,6 +56,21 @@ class TestActivity : AppCompatActivity() {
                 mAudioMgr.isWiredHeadsetOn = true;
                 Toast.makeText(this, "Wired Headset On", Toast.LENGTH_LONG).show()
             }
+        }
+
+        binding.button2.setOnClickListener {
+            val dialog = Dialog(this)
+            dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+            dialog.setContentView(R.layout.popup)
+            dialog.window?.setBackgroundDrawable( ColorDrawable(resources.getColor(android.R.color.transparent)))
+            val layoutParams = dialog.window!!.attributes
+            layoutParams.width = WindowManager.LayoutParams.MATCH_PARENT
+            dialog.window!!.attributes = layoutParams
+            dialog.findViewById<MaterialButton>(R.id.materialButton).setOnClickListener {
+                dialog.dismiss()
+            }
+            dialog.show()
+
         }
 
     }

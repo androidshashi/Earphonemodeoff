@@ -4,6 +4,7 @@ package com.shash.earphonemodeoff.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
@@ -24,16 +25,13 @@ public final class ContentMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView alertTV;
-
-  @NonNull
   public final LinearLayout bannerContainerLL;
 
   @NonNull
   public final CardView goCardView;
 
   @NonNull
-  public final TextView goTV;
+  public final ImageView goTV;
 
   @NonNull
   public final ProgressBar progressBar;
@@ -53,13 +51,12 @@ public final class ContentMainBinding implements ViewBinding {
   @NonNull
   public final TextView textView3;
 
-  private ContentMainBinding(@NonNull ConstraintLayout rootView, @NonNull TextView alertTV,
-      @NonNull LinearLayout bannerContainerLL, @NonNull CardView goCardView, @NonNull TextView goTV,
-      @NonNull ProgressBar progressBar, @NonNull TextView progressText,
+  private ContentMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull LinearLayout bannerContainerLL, @NonNull CardView goCardView,
+      @NonNull ImageView goTV, @NonNull ProgressBar progressBar, @NonNull TextView progressText,
       @NonNull RelativeLayout relativeLayout, @NonNull TextView scanningTV,
       @NonNull TextView textView, @NonNull TextView textView3) {
     this.rootView = rootView;
-    this.alertTV = alertTV;
     this.bannerContainerLL = bannerContainerLL;
     this.goCardView = goCardView;
     this.goTV = goTV;
@@ -98,12 +95,6 @@ public final class ContentMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.alertTV;
-      TextView alertTV = ViewBindings.findChildViewById(rootView, id);
-      if (alertTV == null) {
-        break missingId;
-      }
-
       id = R.id.bannerContainerLL;
       LinearLayout bannerContainerLL = ViewBindings.findChildViewById(rootView, id);
       if (bannerContainerLL == null) {
@@ -117,7 +108,7 @@ public final class ContentMainBinding implements ViewBinding {
       }
 
       id = R.id.goTV;
-      TextView goTV = ViewBindings.findChildViewById(rootView, id);
+      ImageView goTV = ViewBindings.findChildViewById(rootView, id);
       if (goTV == null) {
         break missingId;
       }
@@ -158,9 +149,8 @@ public final class ContentMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ContentMainBinding((ConstraintLayout) rootView, alertTV, bannerContainerLL,
-          goCardView, goTV, progressBar, progressText, relativeLayout, scanningTV, textView,
-          textView3);
+      return new ContentMainBinding((ConstraintLayout) rootView, bannerContainerLL, goCardView,
+          goTV, progressBar, progressText, relativeLayout, scanningTV, textView, textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

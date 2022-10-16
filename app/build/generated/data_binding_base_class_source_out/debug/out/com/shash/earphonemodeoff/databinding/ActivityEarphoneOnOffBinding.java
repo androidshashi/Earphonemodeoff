@@ -25,6 +25,9 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView alertTV;
+
+  @NonNull
   public final LinearLayout bannerLayout;
 
   @NonNull
@@ -94,7 +97,7 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
   public final TextView textView9;
 
   private ActivityEarphoneOnOffBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout bannerLayout, @NonNull LinearLayout btnLL,
+      @NonNull TextView alertTV, @NonNull LinearLayout bannerLayout, @NonNull LinearLayout btnLL,
       @NonNull MaterialButton clickToChangeBtn, @NonNull MaterialButton dialerBtn,
       @NonNull View earphoneLine, @NonNull View earphoneLine1, @NonNull View earphoneLine2,
       @NonNull SwitchCompat earphoneSwitch, @NonNull ImageView headphoneImg,
@@ -104,6 +107,7 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
       @NonNull MaterialButton testBtn, @NonNull TextView textView4, @NonNull TextView textView5,
       @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
+    this.alertTV = alertTV;
     this.bannerLayout = bannerLayout;
     this.btnLL = btnLL;
     this.clickToChangeBtn = clickToChangeBtn;
@@ -156,6 +160,12 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.alertTV;
+      TextView alertTV = ViewBindings.findChildViewById(rootView, id);
+      if (alertTV == null) {
+        break missingId;
+      }
+
       id = R.id.bannerLayout;
       LinearLayout bannerLayout = ViewBindings.findChildViewById(rootView, id);
       if (bannerLayout == null) {
@@ -294,11 +304,11 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEarphoneOnOffBinding((ConstraintLayout) rootView, bannerLayout, btnLL,
-          clickToChangeBtn, dialerBtn, earphoneLine, earphoneLine1, earphoneLine2, earphoneSwitch,
-          headphoneImg, imageView3, imageView7, resetBtn, speakerImg, speakerLine, speakerLine1,
-          speakerLine2, speakerSwitch, testBtn, textView4, textView5, textView7, textView8,
-          textView9);
+      return new ActivityEarphoneOnOffBinding((ConstraintLayout) rootView, alertTV, bannerLayout,
+          btnLL, clickToChangeBtn, dialerBtn, earphoneLine, earphoneLine1, earphoneLine2,
+          earphoneSwitch, headphoneImg, imageView3, imageView7, resetBtn, speakerImg, speakerLine,
+          speakerLine1, speakerLine2, speakerSwitch, testBtn, textView4, textView5, textView7,
+          textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

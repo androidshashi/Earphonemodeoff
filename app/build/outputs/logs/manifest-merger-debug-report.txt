@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:viewbinding:7.2.2] C:\Users\91920\.gradle\caches\transforms-3\99356657452459972d5394fc9fd6ead2\transformed\viewbinding-7.2.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\91920\.gradle\caches\transforms-3\9d6778b007a14e0c6659deb3da7018f2\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\91920\.gradle\caches\transforms-3\0d84a4d4da2abb3fb58227fdd5309bb8\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -66,22 +66,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\91920\.gradle\caches\transform
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\91920\.gradle\caches\transforms-3\97a5a65e7992ff3bd20768c11d832f32\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\91920\.gradle\caches\transforms-3\7f7cc72930a105cd06eb11c43e1dbcb8\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\e273be70d1f54d1dd07f759b7827c3b3\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-46:12
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:2:11-69
@@ -98,7 +98,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:
 	android:name
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:9:5-44:19
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:9:5-45:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\91920\.gradle\caches\transforms-3\9d6778b007a14e0c6659deb3da7018f2\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\91920\.gradle\caches\transforms-3\9d6778b007a14e0c6659deb3da7018f2\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\91920\.gradle\caches\transforms-3\0d84a4d4da2abb3fb58227fdd5309bb8\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -172,37 +172,37 @@ ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:22:9-25:52
 	android:name
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:23:13-58
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:26:9-28:70
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:27:9-29:70
 	android:value
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:28:13-67
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:29:13-67
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:27:13-69
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:28:13-69
 activity#com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:30:9-39:20
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:31:9-40:20
 	android:screenOrientation
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:33:13-49
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:34:13-49
 	android:exported
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:32:13-36
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:31:13-60
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:32:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:34:13-38:29
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:38:27-74
 activity#com.shash.earphonemodeoff.view.ui.main.MainActivity
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:40:9-43:51
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:41:9-44:51
 	android:screenOrientation
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:44:13-49
 	android:exported
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:41:13-54
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:42:13-54
 uses-sdk
 INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml

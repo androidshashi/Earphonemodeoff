@@ -24,12 +24,21 @@ public final class NavHeaderMainBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ImageView thumbnailImageview;
+
+  @NonNull
+  public final TextView thumbnailTitle;
+
+  @NonNull
   public final TextView title;
 
   private NavHeaderMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
+      @NonNull ImageView thumbnailImageview, @NonNull TextView thumbnailTitle,
       @NonNull TextView title) {
     this.rootView = rootView;
     this.imageView = imageView;
+    this.thumbnailImageview = thumbnailImageview;
+    this.thumbnailTitle = thumbnailTitle;
     this.title = title;
   }
 
@@ -66,13 +75,26 @@ public final class NavHeaderMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.thumbnail_imageview;
+      ImageView thumbnailImageview = ViewBindings.findChildViewById(rootView, id);
+      if (thumbnailImageview == null) {
+        break missingId;
+      }
+
+      id = R.id.thumbnail_title;
+      TextView thumbnailTitle = ViewBindings.findChildViewById(rootView, id);
+      if (thumbnailTitle == null) {
+        break missingId;
+      }
+
       id = R.id.title;
       TextView title = ViewBindings.findChildViewById(rootView, id);
       if (title == null) {
         break missingId;
       }
 
-      return new NavHeaderMainBinding((ConstraintLayout) rootView, imageView, title);
+      return new NavHeaderMainBinding((ConstraintLayout) rootView, imageView, thumbnailImageview,
+          thumbnailTitle, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -23,7 +23,7 @@ import com.shash.earphonemodeoff.R
 import com.shash.earphonemodeoff.databinding.ActivityMainBinding
 import com.shash.earphonemodeoff.utils.PRIVACY_POLICY_URL
 import com.shash.earphonemodeoff.utils.TNC_URL
-import com.shash.earphonemodeoff.utils.TUTORIAL_VIDEO_URL
+import com.shash.earphonemodeoff.utils.VIDEO_URL
 import com.shash.earphonemodeoff.utils.extensions.*
 import com.shash.earphonemodeoff.view.ui.EarphoneOnOffActivity
 
@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var progressBar: ProgressBar
     private lateinit var progressText: TextView
     private lateinit var goCardView: CardView
+    private var headerView: View? = null
+    private var videoImageView: ImageView? = null
+    private var videoTitle: TextView? = null
 
     var zoomout :Animation? = null
 
@@ -64,13 +67,18 @@ class MainActivity : AppCompatActivity() {
 
         listeners()
 
-        binding.appBarMain.mainContentLayout.alertTV.visible(aboveSDK30())
-
     }
 
     private fun listeners() {
         goCardView.setOnClickListener {
             startNewActivity(EarphoneOnOffActivity::class.java,flags = false)
+        }
+        videoImageView?.setOnClickListener {
+            openCustomChromeTab(VIDEO_URL)
+        }
+
+        videoTitle?.setOnClickListener {
+            openCustomChromeTab(VIDEO_URL)
         }
     }
 
@@ -90,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                     "$status%".also { progressText.text = it }
                     progressBar.progress = status
                     status++
-                    handler.postDelayed(this, 50)
+                    handler.postDelayed(this, 30)
                     if (status==100)
                     {
                         progressText.visible(false)
@@ -104,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                     handler.removeCallbacks(this)
                 }
             }
-        }, 50)
+        }, 30)
 
     }
 
@@ -140,16 +148,20 @@ class MainActivity : AppCompatActivity() {
         // to make the Navigation drawer icon always appear on the action bar
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
+        //inflating the header view
+        headerView = binding.navView.getHeaderView(0)
+        // val profileImage = headerView.findViewById(R.id.navProfileCIV) as CircleImageView
+        videoImageView = headerView?.findViewById<ImageView>(R.id.thumbnail_imageview)
+        videoTitle = headerView?.findViewById<TextView>(R.id.thumbnail_title)
+
+
+
         binding.navView.setNavigationItemSelectedListener { dest ->
 
             when (dest.itemId) {
 
                 R.id.nav_share_this_app -> {
                     shareApp()
-                }
-
-                R.id.nav_tutorial -> {
-                    openCustomChromeTab(TUTORIAL_VIDEO_URL)
                 }
 
                 R.id.nav_rate_us -> {

@@ -1,18 +1,22 @@
 package com.shash.earphonemodeoff.view.ui.welcome
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import com.google.android.gms.ads.*
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.FullScreenContentCallback
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding
 import com.shash.earphonemodeoff.utils.InternetUtils
-import com.shash.earphonemodeoff.utils.extensions.*
-
-import com.shash.earphonemodeoff.utils.internet.ConnectionLiveData
+import com.shash.earphonemodeoff.utils.extensions.expireDemoApp
+import com.shash.earphonemodeoff.utils.extensions.getInterstitialAdUnitId
+import com.shash.earphonemodeoff.utils.extensions.showAlertDialog
+import com.shash.earphonemodeoff.utils.extensions.startNewActivity
 import com.shash.earphonemodeoff.view.ui.main.MainActivity
 
 class WelcomeActivity : AppCompatActivity() {
@@ -28,7 +32,9 @@ class WelcomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         _binding = ActivityWelcomeBinding.inflate(layoutInflater, null, false)
         setContentView(binding.root)
-        if (expireDemoApp("22-09-2022 17:45:01")) {
+
+        //this check will work only for debug mode
+        if (expireDemoApp("30-10-2022 17:45:01")) {
             showAlertDialog(
                 title = "Demo App Expired",
                 showNegBtn = false,
@@ -41,7 +47,6 @@ class WelcomeActivity : AppCompatActivity() {
             MobileAds.initialize(this) {}
             observe()
         }
-
     }
 
     private fun observe() {
