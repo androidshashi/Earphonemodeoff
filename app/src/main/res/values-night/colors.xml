@@ -12,4 +12,5 @@
     <color name="color_yellow">#FFEB3B</color>
     <color name="color_gray">#FACCCCCC</color>
     <color name="color_round_btn_bg">#E5C9B0</color>
+    <color name="color_rate_text">@color/white</color>
 </resources>

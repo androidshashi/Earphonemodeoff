@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:padding="8dp"
+        android:elevation="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,22 +40,23 @@
             android:textSize="24sp"
             android:visibility="visible" />
 
-        <androidx.cardview.widget.CardView
+        <RelativeLayout
             android:id="@+id/goCardView"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerInParent="true"
-            android:visibility="visible"
-            app:cardCornerRadius="1000dp"
-            app:cardElevation="20dp">
+            tools:visibility="visible"
+            android:visibility="invisible">
 
             <ImageView
                 android:id="@+id/goTV"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/circular_solid_shape"
                 android:src="@drawable/go" />
-        </androidx.cardview.widget.CardView>
+        </RelativeLayout>
 
     </RelativeLayout>
 

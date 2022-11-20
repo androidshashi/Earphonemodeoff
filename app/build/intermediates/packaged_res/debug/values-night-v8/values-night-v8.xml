@@ -3,8 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="color_gray">#FACCCCCC</color>
     <color name="color_green">#36F459</color>
+    <color name="color_rate_text">@color/white</color>
     <color name="color_red">#FF0000</color>
-    <color name="color_round_btn_bg">#FACCCCCC</color>
+    <color name="color_round_btn_bg">#E5C9B0</color>
     <color name="color_yellow">#FFEB3B</color>
     <color name="purple_200">#ff7700</color>
     <color name="purple_500">#F2A30F</color>

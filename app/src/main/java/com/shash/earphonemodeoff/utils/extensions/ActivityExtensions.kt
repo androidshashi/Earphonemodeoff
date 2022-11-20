@@ -3,7 +3,9 @@ package com.shash.earphonemodeoff.utils.extensions
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.graphics.Point
 import android.net.Uri
+import android.os.Build
 import android.provider.Settings
 import android.util.Log
 import android.view.WindowManager
@@ -100,4 +102,15 @@ fun Activity.expireDemoApp(dateString: String):Boolean
     return System.currentTimeMillis()>=expDateInMilli
 
 }
+
+fun Activity.getRealScreenSize(): Pair<Int, Int> { //<width, height>
+    return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+        val size = Point()
+        display?.getRealSize(size)
+        Pair(size.x, size.y)
+    } else {
+        val size = Point()
+        windowManager.defaultDisplay.getRealSize(size)
+        Pair(size.x, size.y)
+    }}
 

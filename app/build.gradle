@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
+
     compileSdk 32
 
     defaultConfig {
         applicationId "com.techyganesh.earphonemodeoff"
         minSdk 24
         targetSdk 32
-        versionCode 1
-        versionName "1.0"
-
+        versionCode 4
+        versionName "1.0.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -46,8 +46,11 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'com.github.bumptech.glide:glide:4.13.2'
+    //data store
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation 'com.google.android.gms:play-services-ads:21.2.0'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
 
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
     testImplementation 'junit:junit:4.13.2'

@@ -161,8 +161,8 @@
 -keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
 -keep class com.shash.earphonemodeoff.view.ui.EarphoneOnOffActivity { <init>(); }
--keep class com.shash.earphonemodeoff.view.ui.TestActivity { <init>(); }
 -keep class com.shash.earphonemodeoff.view.ui.main.MainActivity { <init>(); }
+-keep class com.shash.earphonemodeoff.view.ui.test.TestActivity { <init>(); }
 -keep class com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
@@ -619,6 +619,11 @@
 }
 
 # End of content from C:\Users\91920\.gradle\caches\transforms-3\8700324413c3d28d205e582f0ac15351\transformed\lifecycle-viewmodel-savedstate-2.5.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\91920\.gradle\caches\transforms-3\8c42a161ff1cc318d16d84f3e6b820bf\transformed\datastore-preferences-1.0.0\proguard.txt
+-keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
+    <fields>;
+}
+# End of content from C:\Users\91920\.gradle\caches\transforms-3\8c42a161ff1cc318d16d84f3e6b820bf\transformed\datastore-preferences-1.0.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\91920\.gradle\caches\transforms-3\4fb18b6caea5c2e4879a8f7f17acc230\transformed\rules\lib\META-INF\com.android.tools\r8\coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro

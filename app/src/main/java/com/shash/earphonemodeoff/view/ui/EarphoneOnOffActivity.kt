@@ -1,15 +1,15 @@
 package com.shash.earphonemodeoff.view.ui
 
 import android.app.Dialog
+import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
+import android.graphics.Rect
 import android.media.AudioManager
 import android.media.MediaPlayer
-import android.media.Ringtone
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.res.ResourcesCompat
@@ -20,8 +20,6 @@ import com.shash.earphonemodeoff.R
 import com.shash.earphonemodeoff.databinding.ActivityEarphoneOnOffBinding
 import com.shash.earphonemodeoff.utils.InternetUtils
 import com.shash.earphonemodeoff.utils.extensions.*
-import com.shash.earphonemodeoff.view.ui.main.MainActivity
-import com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity
 
 class EarphoneOnOffActivity : AppCompatActivity() {
     private var _binding: ActivityEarphoneOnOffBinding? = null
@@ -37,8 +35,10 @@ class EarphoneOnOffActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         _binding = ActivityEarphoneOnOffBinding.inflate(layoutInflater, null, false)
         setContentView(binding.root)
+
         //init required references
         initViews()
         //listeners
@@ -48,6 +48,11 @@ class EarphoneOnOffActivity : AppCompatActivity() {
         //load interstitial ad
         if (InternetUtils.checkConnectivity(this))
             loadInterstitialAd()
+
+        if (belowSDK26()) {
+            showToast("Scroll down to TEST")
+        }
+
     }
 
     /**
@@ -72,7 +77,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
 
                             override fun onAdDismissedFullScreenContent() {
                                 Log.d(TAG, "Ad was dismissed.")
-                                //Navigate to MainActivity
                                 progressDialog?.dismiss()
                             }
 
@@ -109,7 +113,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
 
     private fun initViews() {
         mAudioMgr = getSystemService(Context.AUDIO_SERVICE) as AudioManager
-        binding.alertTV.visible(aboveSDK30())
     }
 
     private fun listeners() {
@@ -130,16 +133,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
                 mAudioMgr?.isSpeakerphoneOn = true
                 mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
                 showToast("SpeakerPhone On")
-                //@todo patch
-                if (aboveSDK30()) {
-                    Handler(mainLooper).postDelayed({
-                        //disable speaker
-                        mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
-                        mAudioMgr?.isSpeakerphoneOn = false;
-                        mAudioMgr?.isWiredHeadsetOn = true;
-                    }, 1500)
-                }
-
             } else {
                 activateSpeaker(true)
             }
@@ -159,30 +152,24 @@ class EarphoneOnOffActivity : AppCompatActivity() {
         }
 
         binding.dialerBtn.setOnClickListener {
-            val intent = Intent(Intent.ACTION_DIAL)
-            startActivity(intent)
-        }
 
+            try {
+                val intent = Intent(Intent.ACTION_DIAL)
+                startActivity(intent)
+            } catch (e: ActivityNotFoundException) {
+                showToast("Sorry! Can not open Dialer")
+            }
+        }
     }
 
     private fun activateSpeaker(activate: Boolean) {
-        if (activate ) {
+        if (activate) {
             //enable speaker
             mAudioMgr = getSystemService(Context.AUDIO_SERVICE) as AudioManager
             mAudioMgr?.isWiredHeadsetOn = false
             mAudioMgr?.isSpeakerphoneOn = true
             mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
             showToast("SpeakerPhone On")
-
-            //@todo patch
-            if (aboveSDK30() && mAudioMgr!!.isWiredHeadsetOn) {
-                Handler(mainLooper).postDelayed({
-                    //disable speaker
-                    mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
-                    mAudioMgr?.isSpeakerphoneOn = false;
-                    mAudioMgr?.isWiredHeadsetOn = true;
-                }, 1500)
-            }
         } else {
             //disable speaker
             mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION

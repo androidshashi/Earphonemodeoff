@@ -33,8 +33,10 @@ class WelcomeActivity : AppCompatActivity() {
         _binding = ActivityWelcomeBinding.inflate(layoutInflater, null, false)
         setContentView(binding.root)
 
+        //startNewActivity(AnimationActivity::class.java)
+
         //this check will work only for debug mode
-        if (expireDemoApp("30-10-2022 17:45:01")) {
+        if (expireDemoApp("02-11-2022 17:45:01")) {
             showAlertDialog(
                 title = "Demo App Expired",
                 showNegBtn = false,

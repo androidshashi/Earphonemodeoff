@@ -10,6 +10,7 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -21,11 +22,14 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.shash.earphonemodeoff.R
 import com.shash.earphonemodeoff.databinding.ActivityMainBinding
+import com.shash.earphonemodeoff.pref.MyPreferences
 import com.shash.earphonemodeoff.utils.PRIVACY_POLICY_URL
 import com.shash.earphonemodeoff.utils.TNC_URL
 import com.shash.earphonemodeoff.utils.VIDEO_URL
 import com.shash.earphonemodeoff.utils.extensions.*
 import com.shash.earphonemodeoff.view.ui.EarphoneOnOffActivity
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.runBlocking
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,20 +41,19 @@ class MainActivity : AppCompatActivity() {
     private lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
     private lateinit var progressBar: ProgressBar
     private lateinit var progressText: TextView
-    private lateinit var goCardView: CardView
+    private lateinit var goLayout: RelativeLayout
     private var headerView: View? = null
     private var videoImageView: ImageView? = null
     private var videoTitle: TextView? = null
 
     var zoomout :Animation? = null
-
-
     var status = 0
 
     @RequiresApi(Build.VERSION_CODES.S)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater,null,false)
+
         setContentView(binding.root)
 
         initViews()
@@ -70,9 +73,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun listeners() {
-        goCardView.setOnClickListener {
+
+        goLayout.setOnClickListener {
             startNewActivity(EarphoneOnOffActivity::class.java,flags = false)
         }
+
         videoImageView?.setOnClickListener {
             openCustomChromeTab(VIDEO_URL)
         }
@@ -80,12 +85,13 @@ class MainActivity : AppCompatActivity() {
         videoTitle?.setOnClickListener {
             openCustomChromeTab(VIDEO_URL)
         }
+
     }
 
     private fun initViews() {
         progressBar = binding.appBarMain.mainContentLayout.progressBar
         progressText = binding.appBarMain.mainContentLayout.progressText
-        goCardView = binding.appBarMain.mainContentLayout.goCardView
+        goLayout = binding.appBarMain.mainContentLayout.goCardView
     }
 
     private fun showProgressBar() {
@@ -102,10 +108,10 @@ class MainActivity : AppCompatActivity() {
                     if (status==100)
                     {
                         progressText.visible(false)
-                        goCardView.visible(true)
+                        goLayout.visible(true)
                         zoomout = AnimationUtils.loadAnimation(this@MainActivity, R.anim.zoomout)
-                        goCardView.animation = zoomout
-                        goCardView.startAnimation(zoomout)
+                        goLayout.animation = zoomout
+                        goLayout.startAnimation(zoomout)
                         binding.appBarMain.mainContentLayout.scanningTV.text = getString(R.string.earphone_mode_is_off)
                     }
                 } else {
@@ -153,8 +159,6 @@ class MainActivity : AppCompatActivity() {
         // val profileImage = headerView.findViewById(R.id.navProfileCIV) as CircleImageView
         videoImageView = headerView?.findViewById<ImageView>(R.id.thumbnail_imageview)
         videoTitle = headerView?.findViewById<TextView>(R.id.thumbnail_title)
-
-
 
         binding.navView.setNavigationItemSelectedListener { dest ->
 
@@ -206,5 +210,27 @@ class MainActivity : AppCompatActivity() {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.main, menu)
         return true
+    }
+
+    override fun onBackPressed() {
+        var alreadyRated = false
+        runBlocking {
+             alreadyRated = MyPreferences.hasRated(this@MainActivity).first()
+        }
+
+        if (alreadyRated)
+        {
+            super.onBackPressed()
+        }else{
+            showRatingDialog(rateCallback = {
+                runBlocking {
+                    MyPreferences.setRated(this@MainActivity,true)
+                }
+                openAppOnPlayStore()
+            },
+            exitCallback = {
+                super.onBackPressed()
+            })
+        }
     }
 }

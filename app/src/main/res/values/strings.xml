@@ -28,4 +28,8 @@
     <string name="video_tutorial">Video Tutorial</string>
     <string name="communication">Communication</string>
     <string name="scanning_please_wait">Scanning please wait..</string>
+    <string name="later">Later</string>
+    <string name="rate">Rate</string>
+    <string name="would_you_mind_rating_us">Would you mind rating us?</string>
+    <string name="enjoying_the_app">Enjoying the app?</string>
 </resources>

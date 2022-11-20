@@ -6,12 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.google.android.material.button.MaterialButton;
@@ -22,10 +23,7 @@ import java.lang.String;
 
 public final class ActivityEarphoneOnOffBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
-
-  @NonNull
-  public final TextView alertTV;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final LinearLayout bannerLayout;
@@ -64,6 +62,9 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
   public final MaterialButton resetBtn;
 
   @NonNull
+  public final ScrollView scrollView;
+
+  @NonNull
   public final ImageView speakerImg;
 
   @NonNull
@@ -96,18 +97,17 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
   @NonNull
   public final TextView textView9;
 
-  private ActivityEarphoneOnOffBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView alertTV, @NonNull LinearLayout bannerLayout, @NonNull LinearLayout btnLL,
+  private ActivityEarphoneOnOffBinding(@NonNull RelativeLayout rootView,
+      @NonNull LinearLayout bannerLayout, @NonNull LinearLayout btnLL,
       @NonNull MaterialButton clickToChangeBtn, @NonNull MaterialButton dialerBtn,
       @NonNull View earphoneLine, @NonNull View earphoneLine1, @NonNull View earphoneLine2,
       @NonNull SwitchCompat earphoneSwitch, @NonNull ImageView headphoneImg,
       @NonNull CardView imageView3, @NonNull ImageView imageView7, @NonNull MaterialButton resetBtn,
-      @NonNull ImageView speakerImg, @NonNull View speakerLine, @NonNull View speakerLine1,
-      @NonNull View speakerLine2, @NonNull SwitchCompat speakerSwitch,
+      @NonNull ScrollView scrollView, @NonNull ImageView speakerImg, @NonNull View speakerLine,
+      @NonNull View speakerLine1, @NonNull View speakerLine2, @NonNull SwitchCompat speakerSwitch,
       @NonNull MaterialButton testBtn, @NonNull TextView textView4, @NonNull TextView textView5,
       @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
-    this.alertTV = alertTV;
     this.bannerLayout = bannerLayout;
     this.btnLL = btnLL;
     this.clickToChangeBtn = clickToChangeBtn;
@@ -120,6 +120,7 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
     this.imageView3 = imageView3;
     this.imageView7 = imageView7;
     this.resetBtn = resetBtn;
+    this.scrollView = scrollView;
     this.speakerImg = speakerImg;
     this.speakerLine = speakerLine;
     this.speakerLine1 = speakerLine1;
@@ -135,7 +136,7 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -160,12 +161,6 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.alertTV;
-      TextView alertTV = ViewBindings.findChildViewById(rootView, id);
-      if (alertTV == null) {
-        break missingId;
-      }
-
       id = R.id.bannerLayout;
       LinearLayout bannerLayout = ViewBindings.findChildViewById(rootView, id);
       if (bannerLayout == null) {
@@ -238,6 +233,12 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.scrollView;
+      ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
+      if (scrollView == null) {
+        break missingId;
+      }
+
       id = R.id.speakerImg;
       ImageView speakerImg = ViewBindings.findChildViewById(rootView, id);
       if (speakerImg == null) {
@@ -304,9 +305,9 @@ public final class ActivityEarphoneOnOffBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityEarphoneOnOffBinding((ConstraintLayout) rootView, alertTV, bannerLayout,
-          btnLL, clickToChangeBtn, dialerBtn, earphoneLine, earphoneLine1, earphoneLine2,
-          earphoneSwitch, headphoneImg, imageView3, imageView7, resetBtn, speakerImg, speakerLine,
+      return new ActivityEarphoneOnOffBinding((RelativeLayout) rootView, bannerLayout, btnLL,
+          clickToChangeBtn, dialerBtn, earphoneLine, earphoneLine1, earphoneLine2, earphoneSwitch,
+          headphoneImg, imageView3, imageView7, resetBtn, scrollView, speakerImg, speakerLine,
           speakerLine1, speakerLine2, speakerSwitch, testBtn, textView4, textView5, textView7,
           textView8, textView9);
     }

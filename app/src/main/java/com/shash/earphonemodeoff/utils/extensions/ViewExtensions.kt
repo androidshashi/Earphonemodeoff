@@ -1,6 +1,8 @@
 package com.shash.earphonemodeoff.utils.extensions
 
+import android.content.res.Resources
 import android.graphics.Color
+import android.graphics.Rect
 import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.snackbar.Snackbar
@@ -70,3 +72,4 @@ fun View.setEnabledRecursively(enabled: Boolean) {
         (0 until childCount).map(::getChildAt).forEach { it.setEnabledRecursively(enabled)
             it.alpha = if (enabled) 1f else 0.9f }
 }
+

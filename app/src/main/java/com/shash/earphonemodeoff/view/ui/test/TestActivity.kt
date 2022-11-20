@@ -1,4 +1,4 @@
-package com.shash.earphonemodeoff.view.ui
+package com.shash.earphonemodeoff.view.ui.test
 
 import android.app.Dialog
 import android.content.Context

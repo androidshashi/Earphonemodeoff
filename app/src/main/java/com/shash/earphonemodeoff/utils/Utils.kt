@@ -1,12 +1,16 @@
 package com.shash.earphonemodeoff.utils
 
+import android.opengl.ETC1.getHeight
+import android.util.Log
 import android.view.Menu
 import android.view.View
 import android.widget.ProgressBar
+import android.widget.ScrollView
 import androidx.core.view.iterator
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
 
 /**
 @Author: Shashi
@@ -52,6 +56,17 @@ fun Menu.showAllItems(mVisible:Boolean = false)
     {
         m.isVisible = mVisible
     }
+}
+
+
+/**
+ * @return Returns true this ScrollView can be scrolled
+ */
+ fun ScrollView.canScroll(): Boolean {
+    val child: View = getChildAt(0)
+    val childHeight = child.height
+    Log.d("gjjhfjk","Child:${childHeight+paddingTop+paddingBottom},View:=$height ")
+    return height < (childHeight + paddingTop + paddingBottom)
 }
 
 

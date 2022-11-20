@@ -3,16 +3,20 @@ package com.shash.earphonemodeoff.utils.extensions
 import android.app.Dialog
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.os.Build
-import android.widget.ProgressBar
+import android.view.ViewGroup
+import android.view.Window
+import android.widget.RatingBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.browser.customtabs.CustomTabsIntent
 import androidx.core.content.ContextCompat
+import com.google.android.material.button.MaterialButton
 import com.shash.earphonemodeoff.R
-import org.w3c.dom.Text
 
 
 /**
@@ -122,8 +126,43 @@ fun Context.showProgressDialog(title: String="Loading",message: String = "Please
     return dialog
 }
 
-fun Context.aboveSDK30() = android.os.Build.VERSION.SDK_INT>Build.VERSION_CODES.R
+fun Context.showRatingDialog(rateCallback:()->Unit, exitCallback:()->Unit ):Dialog
+{
+    val dialog = Dialog(this)
+    dialog.window?.apply {
+        setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
+        requestFeature(Window.FEATURE_NO_TITLE)
+        setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+    }
 
+    dialog.apply {
+        setContentView(R.layout.rating_dialog_layout)
+        setCancelable(false)
+        setCanceledOnTouchOutside(false)
+    }
+    //set the custom dialog components - title, ProgressBar and button
+    val rateBtn =  dialog.findViewById<MaterialButton>(R.id.rateBtn).apply {
+        setOnClickListener {
+            rateCallback.invoke()
+        }
+
+        enable(false)
+    }
+
+    dialog.findViewById<MaterialButton>(R.id.laterBtn).setOnClickListener {
+        exitCallback.invoke()
+    }
+
+    dialog.findViewById<RatingBar>(R.id.ratingBar).setOnRatingBarChangeListener { ratingBar, fl, b ->
+        rateBtn.enable(ratingBar.rating>=0.5)
+    }
+
+    dialog.show()
+    return dialog
+}
+
+fun Context.aboveSDK30() = android.os.Build.VERSION.SDK_INT>Build.VERSION_CODES.R
+fun Context.belowSDK26() = android.os.Build.VERSION.SDK_INT<Build.VERSION_CODES.O
 /**
  * launch Custom chrome tab
  */

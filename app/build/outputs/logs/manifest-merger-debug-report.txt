@@ -29,8 +29,11 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\91920\.gr
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\4e687c133cd9045696daa19214a6535c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\91920\.gradle\caches\transforms-3\fd66481db76bdcf828aeaf6eaa0ee6b0\transformed\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\91920\.gradle\caches\transforms-3\8700324413c3d28d205e582f0ac15351\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\8c42a161ff1cc318d16d84f3e6b820bf\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\507cca94953c429f886052562e12258b\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\91920\.gradle\caches\transforms-3\f48f900f03316f7f3735d59aacb15ff3\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\6dbe3e79b9d1a2c6b9700f7fc05268a3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\9286c60fa995f3996d73f5c477982845\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\91920\.gradle\caches\transforms-3\6355f7f15047d6047dff53a3d4986848\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\91920\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\91920\.gradle\caches\transforms-3\e33a5a07e0e96c48df04ee4e4b5363cc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -157,20 +160,20 @@ MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\91920\.gradle\caches\tra
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:17:9-53
 	android:dataExtractionRules
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:11:9-65
-activity#com.shash.earphonemodeoff.view.ui.TestActivity
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:19:9-21:40
+activity#com.shash.earphonemodeoff.view.ui.test.TestActivity
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:21:13-37
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:20:13-49
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:21:13-54
 activity#com.shash.earphonemodeoff.view.ui.EarphoneOnOffActivity
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:22:9-25:52
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:23:9-26:52
 	android:screenOrientation
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:25:13-49
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:26:13-49
 	android:exported
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:24:13-58
 meta-data#com.google.android.gms.ads.APPLICATION_ID
 ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:27:9-29:70
 	android:value
@@ -196,7 +199,7 @@ ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:38:27-74
 activity#com.shash.earphonemodeoff.view.ui.main.MainActivity
-ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:41:9-44:51
+ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:41:9-44:52
 	android:screenOrientation
 		ADDED from E:\Earphonemodeoff\app\src\main\AndroidManifest.xml:44:13-49
 	android:exported
@@ -257,10 +260,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\91920\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\91920\.gradle\caches\transforms-3\fd66481db76bdcf828aeaf6eaa0ee6b0\transformed\lifecycle-viewmodel-2.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\91920\.gradle\caches\transforms-3\8700324413c3d28d205e582f0ac15351\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\91920\.gradle\caches\transforms-3\8700324413c3d28d205e582f0ac15351\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\8c42a161ff1cc318d16d84f3e6b820bf\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\8c42a161ff1cc318d16d84f3e6b820bf\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\507cca94953c429f886052562e12258b\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\91920\.gradle\caches\transforms-3\507cca94953c429f886052562e12258b\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\91920\.gradle\caches\transforms-3\f48f900f03316f7f3735d59aacb15ff3\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\91920\.gradle\caches\transforms-3\f48f900f03316f7f3735d59aacb15ff3\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\6dbe3e79b9d1a2c6b9700f7fc05268a3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\6dbe3e79b9d1a2c6b9700f7fc05268a3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\9286c60fa995f3996d73f5c477982845\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\91920\.gradle\caches\transforms-3\9286c60fa995f3996d73f5c477982845\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\91920\.gradle\caches\transforms-3\6355f7f15047d6047dff53a3d4986848\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\91920\.gradle\caches\transforms-3\6355f7f15047d6047dff53a3d4986848\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\91920\.gradle\caches\transforms-3\8646fc24a05f0f3fb603801ddeb6af39\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
