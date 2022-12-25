@@ -1,4 +1,4 @@
-package com.abc.earphonemodeoff
+package com.shash.earphonemodeoff
 
 import org.junit.Test
 
