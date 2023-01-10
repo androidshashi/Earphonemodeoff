@@ -22499,6 +22499,11 @@ com.google.android.ump.zzb
 com.google.firebase.FirebaseApiNotAvailableException
 com.google.firebase.FirebaseException
 com.google.firebase.FirebaseExceptionMapper
+com.intuit.sdp.BuildConfig
+com.intuit.sdp.R$dimen
+com.intuit.sdp.R$id
+com.intuit.sdp.R$layout
+com.intuit.sdp.R
 com.shash.earphonemodeoff.BuildConfig:
     public static final java.lang.String APPLICATION_ID
     public static final java.lang.String BUILD_TYPE

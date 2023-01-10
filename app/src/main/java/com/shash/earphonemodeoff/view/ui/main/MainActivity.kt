@@ -10,6 +10,7 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.ProgressBar
+import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
     private lateinit var progressBar: ProgressBar
     private lateinit var progressText: TextView
-    private lateinit var goCardView: CardView
+    private lateinit var goCardView: RelativeLayout
     private var headerView: View? = null
     private var videoImageView: ImageView? = null
     private var videoTitle: TextView? = null

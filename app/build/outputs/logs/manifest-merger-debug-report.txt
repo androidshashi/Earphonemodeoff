@@ -31,6 +31,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] C:\Users\Shashi\.grad
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] C:\Users\Shashi\.gradle\caches\transforms-3\1f56431a0a355b764a3ef4b6f0a97295\transformed\lifecycle-viewmodel-savedstate-2.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Shashi\.gradle\caches\transforms-3\5c867406f798347ccb3144eeaa9afbed\transformed\core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\328211d492ef6cca86c93215905c9fe3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\27607f24a2dfe62c927d15202081b3f3\transformed\sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\a339bdd1903282d1ab129359d72132f2\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Shashi\.gradle\caches\transforms-3\f083a5d53a900dcb74baf2ee58992d4e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -261,6 +262,8 @@ MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Shashi\.gradle\caches\transf
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Shashi\.gradle\caches\transforms-3\5c867406f798347ccb3144eeaa9afbed\transformed\core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\328211d492ef6cca86c93215905c9fe3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\328211d492ef6cca86c93215905c9fe3\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\27607f24a2dfe62c927d15202081b3f3\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\Shashi\.gradle\caches\transforms-3\27607f24a2dfe62c927d15202081b3f3\transformed\sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\a339bdd1903282d1ab129359d72132f2\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\a339bdd1903282d1ab129359d72132f2\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44

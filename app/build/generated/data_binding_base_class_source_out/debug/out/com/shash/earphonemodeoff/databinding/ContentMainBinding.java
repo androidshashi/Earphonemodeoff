@@ -11,7 +11,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -28,7 +27,7 @@ public final class ContentMainBinding implements ViewBinding {
   public final LinearLayout bannerContainerLL;
 
   @NonNull
-  public final CardView goCardView;
+  public final RelativeLayout goCardView;
 
   @NonNull
   public final ImageView goTV;
@@ -52,7 +51,7 @@ public final class ContentMainBinding implements ViewBinding {
   public final TextView textView3;
 
   private ContentMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull LinearLayout bannerContainerLL, @NonNull CardView goCardView,
+      @NonNull LinearLayout bannerContainerLL, @NonNull RelativeLayout goCardView,
       @NonNull ImageView goTV, @NonNull ProgressBar progressBar, @NonNull TextView progressText,
       @NonNull RelativeLayout relativeLayout, @NonNull TextView scanningTV,
       @NonNull TextView textView, @NonNull TextView textView3) {
@@ -102,7 +101,7 @@ public final class ContentMainBinding implements ViewBinding {
       }
 
       id = R.id.goCardView;
-      CardView goCardView = ViewBindings.findChildViewById(rootView, id);
+      RelativeLayout goCardView = ViewBindings.findChildViewById(rootView, id);
       if (goCardView == null) {
         break missingId;
       }

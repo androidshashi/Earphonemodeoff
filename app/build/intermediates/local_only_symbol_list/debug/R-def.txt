@@ -18,6 +18,7 @@ color white
 drawable chip_image
 drawable circular_progress_bar
 drawable circular_shape
+drawable circular_solid_shape
 drawable dialog_bg
 drawable go
 drawable green_circle
@@ -41,7 +42,6 @@ drawable thumbnail_video
 drawable track_selector
 drawable wave
 id action_share
-id alertTV
 id appBarLayout
 id app_bar_main
 id bannerContainerLL
@@ -81,6 +81,7 @@ id ratingBar
 id relativeLayout
 id resetBtn
 id scanningTV
+id scrollView
 id speakerImg
 id speakerLine
 id speakerLine1
