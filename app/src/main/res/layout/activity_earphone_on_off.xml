@@ -217,6 +217,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/textview_bg_2"
         android:gravity="center"
+        android:visibility="gone"
         android:padding="4dp"
         android:text="@string/device_alert"
         android:textColor="@color/white"

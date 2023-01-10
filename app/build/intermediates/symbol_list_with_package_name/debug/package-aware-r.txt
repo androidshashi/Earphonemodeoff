@@ -2597,6 +2597,7 @@ drawable thumbnail_video
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable track_selector
+drawable wave
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2987,6 +2988,7 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id ratingBar
 id ratio
 id rectangles
 id relativeLayout
@@ -3327,6 +3329,7 @@ layout notification_template_part_chronometer
 layout notification_template_part_time
 layout popup
 layout progress_dialog
+layout rating_dialog_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

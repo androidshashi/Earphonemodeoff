@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.techyganesh.earphonemodeoff"
+        applicationId "com.techyganesh.earphonemodeofff"
         minSdk 24
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        targetSdk 33
+        versionCode 3
+        versionName "1.1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,6 +37,7 @@ android {
     buildFeatures{
         viewBinding true
     }
+    namespace 'com.shash.earphonemodeoff'
 }
 
 dependencies {

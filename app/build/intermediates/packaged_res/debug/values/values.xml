@@ -4,7 +4,7 @@
     <color name="color_gray">#FACCCCCC</color>
     <color name="color_green">#36F459</color>
     <color name="color_red">#FF0000</color>
-    <color name="color_round_btn_bg">@color/purple_500</color>
+    <color name="color_round_btn_bg">@color/purple_700</color>
     <color name="color_yellow">#FFEB3B</color>
     <color name="ic_launcher_background">#FCB00B</color>
     <color name="purple_200">#ff7700</color>

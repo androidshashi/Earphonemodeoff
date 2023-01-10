@@ -39,6 +39,7 @@ drawable textview_bg_3
 drawable thumb_selector
 drawable thumbnail_video
 drawable track_selector
+drawable wave
 id action_share
 id alertTV
 id appBarLayout
@@ -76,6 +77,7 @@ id nav_tnc
 id nav_view
 id progressText
 id progress_bar
+id ratingBar
 id relativeLayout
 id resetBtn
 id scanningTV
@@ -108,6 +110,7 @@ layout content_main
 layout nav_header_main
 layout popup
 layout progress_dialog
+layout rating_dialog_layout
 menu activity_main_drawer
 menu main
 mipmap ic_launcher

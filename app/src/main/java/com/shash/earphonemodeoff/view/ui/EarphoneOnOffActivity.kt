@@ -109,7 +109,7 @@ class EarphoneOnOffActivity : AppCompatActivity() {
 
     private fun initViews() {
         mAudioMgr = getSystemService(Context.AUDIO_SERVICE) as AudioManager
-        binding.alertTV.visible(aboveSDK30())
+        //binding.alertTV.visible(aboveSDK30())
     }
 
     private fun listeners() {
@@ -130,15 +130,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
                 mAudioMgr?.isSpeakerphoneOn = true
                 mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
                 showToast("SpeakerPhone On")
-                //@todo patch
-                if (aboveSDK30()) {
-                    Handler(mainLooper).postDelayed({
-                        //disable speaker
-                        mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
-                        mAudioMgr?.isSpeakerphoneOn = false;
-                        mAudioMgr?.isWiredHeadsetOn = true;
-                    }, 1500)
-                }
 
             } else {
                 activateSpeaker(true)
@@ -173,16 +164,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
             mAudioMgr?.isSpeakerphoneOn = true
             mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
             showToast("SpeakerPhone On")
-
-            //@todo patch
-            if (aboveSDK30() && mAudioMgr!!.isWiredHeadsetOn) {
-                Handler(mainLooper).postDelayed({
-                    //disable speaker
-                    mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
-                    mAudioMgr?.isSpeakerphoneOn = false;
-                    mAudioMgr?.isWiredHeadsetOn = true;
-                }, 1500)
-            }
         } else {
             //disable speaker
             mAudioMgr?.mode = AudioManager.MODE_IN_COMMUNICATION
@@ -216,7 +197,6 @@ class EarphoneOnOffActivity : AppCompatActivity() {
                 headphoneImg.background =
                     ResourcesCompat.getDrawable(resources, R.drawable.green_circle, null)
             }
-
 
         } else {
             binding.apply {

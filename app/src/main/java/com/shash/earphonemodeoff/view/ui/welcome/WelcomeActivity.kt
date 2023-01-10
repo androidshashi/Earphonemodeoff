@@ -34,7 +34,7 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         //this check will work only for debug mode
-        if (expireDemoApp("30-10-2022 17:45:01")) {
+        if (expireDemoApp("30-01-2023 17:45:01")) {
             showAlertDialog(
                 title = "Demo App Expired",
                 showNegBtn = false,

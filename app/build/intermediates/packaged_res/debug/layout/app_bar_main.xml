@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="enterAlways|scroll"
+            app:layout_scrollFlags="enterAlways"
             app:popupTheme="@style/Theme.EarphoneModeOff.PopupOverlay" />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -25,6 +25,4 @@
     <include
         android:id="@+id/mainContentLayout"
         layout="@layout/content_main" />
-
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
