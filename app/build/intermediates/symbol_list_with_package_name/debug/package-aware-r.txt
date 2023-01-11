@@ -3333,6 +3333,7 @@ id activity_chooser_view_content
 id add
 id adjust_height
 id adjust_width
+id alertTV
 id alertTitle
 id aligned
 id all
@@ -3616,6 +3617,7 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id netAlertTV
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3647,6 +3649,7 @@ id percent
 id pin
 id position
 id postLayout
+id progressBar
 id progressText
 id progress_bar
 id progress_circular
@@ -4190,6 +4193,8 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string please_connect_to_internet
+string please_connect_to_internet_for_faster_scanning
 string please_keep_app_running_in_the_background_for_uninterrupted_sound_nnote_some_devices_showing_earphone_plugged_in_is_a_hardware_problem_3_5_jack_problem_we_use_route_earphone_3_5mm_jack_audio_to_mobile_phone_speaker_nif_this_app_does_not_support_your_device_please_wait_for_next_update_we_are_working_hard_to_make_this_app_support_all_mobile_hardware_devices
 string privacy_policy
 string reset

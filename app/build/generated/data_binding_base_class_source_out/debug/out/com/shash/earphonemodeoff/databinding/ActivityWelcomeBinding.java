@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,15 +22,24 @@ public final class ActivityWelcomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final TextView alertTV;
+
+  @NonNull
   public final ImageView imageView2;
+
+  @NonNull
+  public final ProgressBar progressBar;
 
   @NonNull
   public final TextView textView2;
 
-  private ActivityWelcomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
+  private ActivityWelcomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView alertTV,
+      @NonNull ImageView imageView2, @NonNull ProgressBar progressBar,
       @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.alertTV = alertTV;
     this.imageView2 = imageView2;
+    this.progressBar = progressBar;
     this.textView2 = textView2;
   }
 
@@ -60,9 +70,21 @@ public final class ActivityWelcomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.alertTV;
+      TextView alertTV = ViewBindings.findChildViewById(rootView, id);
+      if (alertTV == null) {
+        break missingId;
+      }
+
       id = R.id.imageView2;
       ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
       if (imageView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
@@ -72,7 +94,8 @@ public final class ActivityWelcomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityWelcomeBinding((ConstraintLayout) rootView, imageView2, textView2);
+      return new ActivityWelcomeBinding((ConstraintLayout) rootView, alertTV, imageView2,
+          progressBar, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

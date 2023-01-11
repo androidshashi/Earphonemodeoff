@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.techyganesh.earphonemodeofff"
-4    android:versionCode="3"
-5    android:versionName="1.1.0" >
+3    package="com.techyganesh.earphonemodeoff"
+4    android:versionCode="4"
+5    android:versionName="1.1.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
@@ -149,7 +149,7 @@
 83-->[com.google.android.gms:play-services-ads-lite:21.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\cb59aa607510e56cfdcdd1e0a50262a9\transformed\play-services-ads-lite-21.2.0\AndroidManifest.xml:55:9-59:39
 84            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
 84-->[com.google.android.gms:play-services-ads-lite:21.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\cb59aa607510e56cfdcdd1e0a50262a9\transformed\play-services-ads-lite-21.2.0\AndroidManifest.xml:56:13-76
-85            android:authorities="com.techyganesh.earphonemodeofff.mobileadsinitprovider"
+85            android:authorities="com.techyganesh.earphonemodeoff.mobileadsinitprovider"
 85-->[com.google.android.gms:play-services-ads-lite:21.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\cb59aa607510e56cfdcdd1e0a50262a9\transformed\play-services-ads-lite-21.2.0\AndroidManifest.xml:57:13-73
 86            android:exported="false"
 86-->[com.google.android.gms:play-services-ads-lite:21.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\cb59aa607510e56cfdcdd1e0a50262a9\transformed\play-services-ads-lite-21.2.0\AndroidManifest.xml:58:13-37
@@ -185,7 +185,7 @@
 103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 104            android:name="androidx.startup.InitializationProvider"
 104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-105            android:authorities="com.techyganesh.earphonemodeofff.androidx-startup"
+105            android:authorities="com.techyganesh.earphonemodeoff.androidx-startup"
 105-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 106            android:exported="false" >
 106-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shashi\.gradle\caches\transforms-3\b1c61a6361eb3f20cddda173d67f4de2\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

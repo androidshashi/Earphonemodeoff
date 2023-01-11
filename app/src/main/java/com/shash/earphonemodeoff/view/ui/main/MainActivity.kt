@@ -22,6 +22,7 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.shash.earphonemodeoff.R
 import com.shash.earphonemodeoff.databinding.ActivityMainBinding
+import com.shash.earphonemodeoff.utils.InternetUtils
 import com.shash.earphonemodeoff.utils.PRIVACY_POLICY_URL
 import com.shash.earphonemodeoff.utils.TNC_URL
 import com.shash.earphonemodeoff.utils.VIDEO_URL
@@ -90,7 +91,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showProgressBar() {
-        val handler = Handler()
+
+        val handler = Handler(mainLooper)
         handler.postDelayed(object : Runnable {
             override fun run() {
                 // set the limitations for the numeric
@@ -99,11 +101,15 @@ class MainActivity : AppCompatActivity() {
                     "$status%".also { progressText.text = it }
                     progressBar.progress = status
                     status++
-                    handler.postDelayed(this, 30)
+                    handler.postDelayed(this, progressDelayTime())
+                    val hasInternet = InternetUtils.checkConnectivity(this@MainActivity)
+                    binding.appBarMain.mainContentLayout.netAlertTV.visible(!hasInternet)
+                    binding.appBarMain.mainContentLayout.scanningTV.visible(hasInternet)
                     if (status==100)
                     {
                         progressText.visible(false)
                         goCardView.visible(true)
+                        binding.appBarMain.mainContentLayout.netAlertTV.visible(false)
                         zoomout = AnimationUtils.loadAnimation(this@MainActivity, R.anim.zoomout)
                         goCardView.animation = zoomout
                         goCardView.startAnimation(zoomout)
@@ -113,7 +119,7 @@ class MainActivity : AppCompatActivity() {
                     handler.removeCallbacks(this)
                 }
             }
-        }, 30)
+        }, progressDelayTime())
 
     }
 

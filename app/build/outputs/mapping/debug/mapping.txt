@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.0"}
-# pg_map_id: f8599c9
-# pg_map_hash: SHA-256 f8599c94cc222b02305a55acdcb61eb1019c13d51a1f9c5f4c3546da014465e8
+# pg_map_id: c00c111
+# pg_map_hash: SHA-256 c00c111dfebc5bf8fa15dad2d62cdf2b9b07f60fd734dd38ac878c7967171b69
 android.app.AppComponentFactory -> android.app.AppComponentFactory:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>
@@ -46290,16 +46290,16 @@ com.shash.earphonemodeoff.databinding.ActivityTestBinding -> com.shash.earphonem
     38:38:androidx.constraintlayout.widget.ConstraintLayout getRoot() -> getRoot
     49:53:com.shash.earphonemodeoff.databinding.ActivityTestBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean) -> inflate
 com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding -> com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding:
-    30:34:void <init>(androidx.constraintlayout.widget.ConstraintLayout,android.widget.ImageView,android.widget.TextView) -> <init>
-    63:78:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding bind(android.view.View) -> bind
-    39:39:androidx.constraintlayout.widget.ConstraintLayout getRoot() -> getRoot
-    50:54:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean) -> inflate
+    38:44:void <init>(androidx.constraintlayout.widget.ConstraintLayout,android.widget.TextView,android.widget.ImageView,android.widget.ProgressBar,android.widget.TextView) -> <init>
+    73:101:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding bind(android.view.View) -> bind
+    49:49:androidx.constraintlayout.widget.ConstraintLayout getRoot() -> getRoot
+    60:64:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding inflate(android.view.LayoutInflater,android.view.ViewGroup,boolean) -> inflate
 com.shash.earphonemodeoff.databinding.AppBarMainBinding -> com.shash.earphonemodeoff.databinding.AppBarMainBinding:
     33:38:void <init>(androidx.coordinatorlayout.widget.CoordinatorLayout,com.google.android.material.appbar.AppBarLayout,com.shash.earphonemodeoff.databinding.ContentMainBinding,androidx.appcompat.widget.Toolbar) -> <init>
     67:90:com.shash.earphonemodeoff.databinding.AppBarMainBinding bind(android.view.View) -> bind
 com.shash.earphonemodeoff.databinding.ContentMainBinding -> com.shash.earphonemodeoff.databinding.ContentMainBinding:
-    57:68:void <init>(androidx.constraintlayout.widget.ConstraintLayout,android.widget.LinearLayout,android.widget.RelativeLayout,android.widget.ImageView,android.widget.ProgressBar,android.widget.TextView,android.widget.RelativeLayout,android.widget.TextView,android.widget.TextView,android.widget.TextView) -> <init>
-    97:155:com.shash.earphonemodeoff.databinding.ContentMainBinding bind(android.view.View) -> bind
+    60:72:void <init>(androidx.constraintlayout.widget.ConstraintLayout,android.widget.LinearLayout,android.widget.RelativeLayout,android.widget.ImageView,android.widget.TextView,android.widget.ProgressBar,android.widget.TextView,android.widget.RelativeLayout,android.widget.TextView,android.widget.TextView,android.widget.TextView) -> <init>
+    101:166:com.shash.earphonemodeoff.databinding.ContentMainBinding bind(android.view.View) -> bind
 com.shash.earphonemodeoff.utils.InternetUtils -> com.shash.earphonemodeoff.utils.InternetUtils:
 # {"id":"sourceFile","fileName":"InternetUtils.kt"}
     12:12:void <init>() -> <init>
@@ -46308,9 +46308,10 @@ com.shash.earphonemodeoff.utils.InternetUtils -> com.shash.earphonemodeoff.utils
     31:34:int connectivityStatusString(android.content.Context) -> connectivityStatusString
 com.shash.earphonemodeoff.utils.extensions.ActivityExtensionsKt -> com.shash.earphonemodeoff.utils.extensions.ActivityExtensionsKt:
 # {"id":"sourceFile","fileName":"ActivityExtensions.kt"}
-    94:100:boolean expireDemoApp(android.app.Activity,java.lang.String) -> expireDemoApp
-    30:34:void startNewActivity(android.app.Activity,java.lang.Class,boolean) -> startNewActivity
-    29:29:void startNewActivity$default(android.app.Activity,java.lang.Class,boolean,int,java.lang.Object) -> startNewActivity$default
+    95:101:boolean expireDemoApp(android.app.Activity,java.lang.String) -> expireDemoApp
+    105:105:long progressDelayTime(android.app.Activity) -> progressDelayTime
+    31:35:void startNewActivity(android.app.Activity,java.lang.Class,boolean) -> startNewActivity
+    30:30:void startNewActivity$default(android.app.Activity,java.lang.Class,boolean,int,java.lang.Object) -> startNewActivity$default
 com.shash.earphonemodeoff.utils.extensions.AdmobKt -> com.shash.earphonemodeoff.utils.extensions.AdmobKt:
 # {"id":"sourceFile","fileName":"Admob.kt"}
     15:15:java.lang.String getBannerAdUnitId() -> getBannerAdUnitId
@@ -46497,28 +46498,28 @@ com.shash.earphonemodeoff.view.ui.main.MainActivity -> com.shash.earphonemodeoff
       # {"id":"com.android.tools.r8.synthesized"}
     boolean $r8$lambda$UiGxoLO8gHlkv21aMhC6kdeEJoY(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.MenuItem) -> $r8$lambda$UiGxoLO8gHlkv21aMhC6kdeEJoY
       # {"id":"com.android.tools.r8.synthesized"}
-    31:31:void <init>() -> <init>
-    31:31:com.shash.earphonemodeoff.databinding.ActivityMainBinding access$getBinding(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getBinding
-    31:31:android.widget.RelativeLayout access$getGoCardView$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getGoCardView$p
-    31:31:android.widget.ProgressBar access$getProgressBar$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getProgressBar$p
-    31:31:android.widget.TextView access$getProgressText$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getProgressText$p
-    35:35:com.shash.earphonemodeoff.databinding.ActivityMainBinding getBinding() -> getBinding
-    49:49:int getStatus() -> getStatus
-    46:46:android.view.animation.Animation getZoomout() -> getZoomout
-    87:90:void initViews() -> initViews
-    74:84:void listeners() -> listeners
-    75:76:void listeners$lambda-0(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-0
-    78:79:void listeners$lambda-1(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-1
-    82:83:void listeners$lambda-2(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-2
-    53:71:void onCreate(android.os.Bundle) -> onCreate
-    208:209:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    192:203:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    49:49:void setStatus(int) -> setStatus
-    140:189:void setUpNavigationView() -> setUpNavigationView
-    162:187:boolean setUpNavigationView$lambda-3(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.MenuItem) -> setUpNavigationView$lambda-3
-    46:46:void setZoomout(android.view.animation.Animation) -> setZoomout
-    121:134:void showBannerAd() -> showBannerAd
-    93:118:void showProgressBar() -> showProgressBar
+    32:32:void <init>() -> <init>
+    32:32:com.shash.earphonemodeoff.databinding.ActivityMainBinding access$getBinding(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getBinding
+    32:32:android.widget.RelativeLayout access$getGoCardView$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getGoCardView$p
+    32:32:android.widget.ProgressBar access$getProgressBar$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getProgressBar$p
+    32:32:android.widget.TextView access$getProgressText$p(com.shash.earphonemodeoff.view.ui.main.MainActivity) -> access$getProgressText$p
+    36:36:com.shash.earphonemodeoff.databinding.ActivityMainBinding getBinding() -> getBinding
+    50:50:int getStatus() -> getStatus
+    47:47:android.view.animation.Animation getZoomout() -> getZoomout
+    88:91:void initViews() -> initViews
+    75:85:void listeners() -> listeners
+    76:77:void listeners$lambda-0(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-0
+    79:80:void listeners$lambda-1(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-1
+    83:84:void listeners$lambda-2(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.View) -> listeners$lambda-2
+    54:72:void onCreate(android.os.Bundle) -> onCreate
+    214:215:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    198:209:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    50:50:void setStatus(int) -> setStatus
+    146:195:void setUpNavigationView() -> setUpNavigationView
+    168:193:boolean setUpNavigationView$lambda-3(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.view.MenuItem) -> setUpNavigationView$lambda-3
+    47:47:void setZoomout(android.view.animation.Animation) -> setZoomout
+    127:140:void showBannerAd() -> showBannerAd
+    95:124:void showProgressBar() -> showProgressBar
 com.shash.earphonemodeoff.view.ui.main.MainActivity$$ExternalSyntheticLambda0 -> com.shash.earphonemodeoff.view.ui.main.MainActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -46553,23 +46554,23 @@ com.shash.earphonemodeoff.view.ui.main.MainActivity$$ExternalSyntheticLambda3 ->
       # {"id":"com.android.tools.r8.synthesized"}
 com.shash.earphonemodeoff.view.ui.main.MainActivity$showProgressBar$1 -> com.shash.earphonemodeoff.view.ui.main.MainActivity$showProgressBar$1:
 # {"id":"sourceFile","fileName":"MainActivity.kt"}
-    94:94:void <init>(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.os.Handler) -> <init>
-    98:212:void run() -> run
+    96:96:void <init>(com.shash.earphonemodeoff.view.ui.main.MainActivity,android.os.Handler) -> <init>
+    100:218:void run() -> run
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity:
 # {"id":"sourceFile","fileName":"WelcomeActivity.kt"}
     void $r8$lambda$An_z59luFiq1cKTYy4rsywdTJAM(com.google.android.gms.ads.initialization.InitializationStatus) -> $r8$lambda$An_z59luFiq1cKTYy4rsywdTJAM
       # {"id":"com.android.tools.r8.synthesized"}
     void $r8$lambda$fWhV4MmxMA2VN60f1QxtTgJxt3E(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> $r8$lambda$fWhV4MmxMA2VN60f1QxtTgJxt3E
       # {"id":"com.android.tools.r8.synthesized"}
-    22:22:void <init>() -> <init>
-    22:22:com.google.android.gms.ads.interstitial.InterstitialAd access$getMInterstitialAd$p(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> access$getMInterstitialAd$p
-    22:22:void access$setMInterstitialAd$p(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity,com.google.android.gms.ads.interstitial.InterstitialAd) -> access$setMInterstitialAd$p
-    24:24:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding getBinding() -> getBinding
-    66:95:void loadInterstitialAd() -> loadInterstitialAd
-    53:60:void observe() -> observe
-    57:58:void observe$lambda-1(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> observe$lambda-1
-    32:50:void onCreate(android.os.Bundle) -> onCreate
-    47:47:void onCreate$lambda-0(com.google.android.gms.ads.initialization.InitializationStatus) -> onCreate$lambda-0
+    19:19:void <init>() -> <init>
+    19:19:com.google.android.gms.ads.interstitial.InterstitialAd access$getMInterstitialAd$p(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> access$getMInterstitialAd$p
+    19:19:void access$setMInterstitialAd$p(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity,com.google.android.gms.ads.interstitial.InterstitialAd) -> access$setMInterstitialAd$p
+    21:21:com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding getBinding() -> getBinding
+    65:94:void loadInterstitialAd() -> loadInterstitialAd
+    50:59:void observe() -> observe
+    56:57:void observe$lambda-1(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> observe$lambda-1
+    29:47:void onCreate(android.os.Bundle) -> onCreate
+    44:44:void onCreate$lambda-0(com.google.android.gms.ads.initialization.InitializationStatus) -> onCreate$lambda-0
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$$ExternalSyntheticLambda0 -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$$ExternalSyntheticLambda0:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -46587,22 +46588,22 @@ com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$$ExternalSyntheticLamb
       # {"id":"com.android.tools.r8.synthesized"}
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$Companion -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$Companion:
 # {"id":"sourceFile","fileName":"WelcomeActivity.kt"}
-    27:27:void <init>() -> <init>
+    24:24:void <init>() -> <init>
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$loadInterstitialAd$1 -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$loadInterstitialAd$1:
 # {"id":"sourceFile","fileName":"WelcomeActivity.kt"}
-    69:69:void <init>(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> <init>
-    71:74:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError) -> onAdFailedToLoad
-    69:69:void onAdLoaded(java.lang.Object) -> onAdLoaded
-    77:93:void onAdLoaded(com.google.android.gms.ads.interstitial.InterstitialAd) -> onAdLoaded
+    68:68:void <init>(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> <init>
+    70:73:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError) -> onAdFailedToLoad
+    68:68:void onAdLoaded(java.lang.Object) -> onAdLoaded
+    76:92:void onAdLoaded(com.google.android.gms.ads.interstitial.InterstitialAd) -> onAdLoaded
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$loadInterstitialAd$1$onAdLoaded$1 -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$loadInterstitialAd$1$onAdLoaded$1:
 # {"id":"sourceFile","fileName":"WelcomeActivity.kt"}
-    80:80:void <init>(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> <init>
-    83:86:void onAdDismissedFullScreenContent() -> onAdDismissedFullScreenContent
-    89:90:void onAdShowedFullScreenContent() -> onAdShowedFullScreenContent
+    79:79:void <init>(com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity) -> <init>
+    82:85:void onAdDismissedFullScreenContent() -> onAdDismissedFullScreenContent
+    88:89:void onAdShowedFullScreenContent() -> onAdShowedFullScreenContent
 com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$onCreate$1 -> com.shash.earphonemodeoff.view.ui.welcome.WelcomeActivity$onCreate$1:
 # {"id":"sourceFile","fileName":"WelcomeActivity.kt"}
-    38:38:java.lang.Object invoke() -> invoke
-    44:45:void invoke() -> invoke
+    35:35:java.lang.Object invoke() -> invoke
+    41:42:void invoke() -> invoke
 dalvik.system.DelegateLastClassLoader -> dalvik.system.DelegateLastClassLoader:
 # {"id":"com.android.tools.r8.synthesized"}
     void <clinit>() -> <clinit>

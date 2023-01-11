@@ -1,230 +1,234 @@
 [
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/anim_zoomin.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/anim/zoomin.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_circular_progress_bar.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/circular_progress_bar.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_sound.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_sound.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_activity_earphone_on_off.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_earphone_on_off.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_textview_bg_3.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\textview_bg_3.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_baseline_share_24.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_baseline_share_24.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_circular_shape.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\circular_shape.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_track_selector.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/track_selector.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_circular_solid_shape.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\circular_solid_shape.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_track_selector.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\track_selector.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_popup.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/popup.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_rating_dialog_layout.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\rating_dialog_layout.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_chip_image.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\chip_image.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_app_bar_main.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/xml_backup_rules.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_textview_bg_3.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/textview_bg_3.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/anim_zoomout.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/anim/zoomout.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_activity_earphone_on_off.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_earphone_on_off.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_switch_thumb_false.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/switch_thumb_false.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_go.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/go.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_thumbnail_video.jpg.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\thumbnail_video.jpg"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_thumbnail_video.jpg.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/thumbnail_video.jpg"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_switch_thumb_true.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/switch_thumb_true.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\logo.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/menu_activity_main_drawer.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/menu/activity_main_drawer.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_circular_shape.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/circular_shape.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_circular_solid_shape.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/circular_solid_shape.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_textview_bg_2.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\textview_bg_2.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_activity_welcome.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_circular_progress_bar.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\circular_progress_bar.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_rating_dialog_layout.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/rating_dialog_layout.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_green_circle.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/green_circle.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_nav_header_main.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/nav_header_main.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_baseline_share_24.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_wave.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/wave.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\anim_zoomout.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\anim\\zoomout.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_chip_image.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/chip_image.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_baseline_correct_16.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_baseline_correct_16.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\menu_main.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\menu\\main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_switch_thumb_true.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\switch_thumb_true.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_sound.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_sound.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_progress_dialog.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\progress_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_baseline_close_16.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_baseline_close_16.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_dialog_bg.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_headphone.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_headphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_wave.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\wave.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_content_main.xml.flat",
         "source": "com.shash.earphonemodeoff.app-main-40:/layout/content_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_dialog_bg.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/dialog_bg.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_thumb_selector.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\thumb_selector.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_close.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_thumb_selector.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/thumb_selector.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_baseline_correct_16.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_baseline_correct_16.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_green_circle.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\green_circle.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_switch_thumb_false.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\switch_thumb_false.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_baseline_close_16.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_baseline_close_16.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_activity_test.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_test.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_progress_dialog.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/progress_dialog.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/menu_main.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/menu/main.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_logo.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/logo.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_red_circle.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\red_circle.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_close.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_close.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_textview_bg.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\textview_bg.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_ic_headphone.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/ic_headphone.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_popup.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\popup.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_textview_bg_2.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/textview_bg_2.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\anim_zoomin.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\anim\\zoomin.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\drawable_go.png.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\drawable\\go.png"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_textview_bg.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/textview_bg.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/xml_data_extraction_rules.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_activity_test.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_test.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/layout_activity_main.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-merged_res-38:/drawable_red_circle.xml.flat",
-        "source": "com.shash.earphonemodeoff.app-main-40:/drawable/red_circle.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-merged_res-38:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\content_main.xml"
     }
 ]

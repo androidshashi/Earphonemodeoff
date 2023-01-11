@@ -33,6 +33,9 @@ public final class ContentMainBinding implements ViewBinding {
   public final ImageView goTV;
 
   @NonNull
+  public final TextView netAlertTV;
+
+  @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
@@ -52,13 +55,14 @@ public final class ContentMainBinding implements ViewBinding {
 
   private ContentMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull LinearLayout bannerContainerLL, @NonNull RelativeLayout goCardView,
-      @NonNull ImageView goTV, @NonNull ProgressBar progressBar, @NonNull TextView progressText,
-      @NonNull RelativeLayout relativeLayout, @NonNull TextView scanningTV,
-      @NonNull TextView textView, @NonNull TextView textView3) {
+      @NonNull ImageView goTV, @NonNull TextView netAlertTV, @NonNull ProgressBar progressBar,
+      @NonNull TextView progressText, @NonNull RelativeLayout relativeLayout,
+      @NonNull TextView scanningTV, @NonNull TextView textView, @NonNull TextView textView3) {
     this.rootView = rootView;
     this.bannerContainerLL = bannerContainerLL;
     this.goCardView = goCardView;
     this.goTV = goTV;
+    this.netAlertTV = netAlertTV;
     this.progressBar = progressBar;
     this.progressText = progressText;
     this.relativeLayout = relativeLayout;
@@ -112,6 +116,12 @@ public final class ContentMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.netAlertTV;
+      TextView netAlertTV = ViewBindings.findChildViewById(rootView, id);
+      if (netAlertTV == null) {
+        break missingId;
+      }
+
       id = R.id.progress_bar;
       ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
       if (progressBar == null) {
@@ -149,7 +159,8 @@ public final class ContentMainBinding implements ViewBinding {
       }
 
       return new ContentMainBinding((ConstraintLayout) rootView, bannerContainerLL, goCardView,
-          goTV, progressBar, progressText, relativeLayout, scanningTV, textView, textView3);
+          goTV, netAlertTV, progressBar, progressText, relativeLayout, scanningTV, textView,
+          textView3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

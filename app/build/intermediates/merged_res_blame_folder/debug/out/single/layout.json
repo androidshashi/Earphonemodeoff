@@ -1,42 +1,46 @@
 [
     {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\rating_dialog_layout.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\rating_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\popup.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\progress_dialog.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\progress_dialog.xml"
+    },
+    {
         "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/content_main.xml",
         "source": "com.shash.earphonemodeoff.app-main-40:/layout/content_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/app_bar_main.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/app_bar_main.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/activity_welcome.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\activity_test.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_test.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/activity_main.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\content_main.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/rating_dialog_layout.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/rating_dialog_layout.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/popup.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/popup.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\activity_earphone_on_off.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_earphone_on_off.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/progress_dialog.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/progress_dialog.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/nav_header_main.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/nav_header_main.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/activity_earphone_on_off.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_earphone_on_off.xml"
-    },
-    {
-        "merged": "com.shash.earphonemodeoff.app-mergeDebugResources-37:/layout/activity_test.xml",
-        "source": "com.shash.earphonemodeoff.app-main-40:/layout/activity_test.xml"
+        "merged": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-mergeDebugResources-37:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Shashi\\.gradle\\daemon\\7.4\\com.shash.earphonemodeoff.app-main-40:\\layout\\app_bar_main.xml"
     }
 ]

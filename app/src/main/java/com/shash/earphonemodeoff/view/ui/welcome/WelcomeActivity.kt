@@ -13,10 +13,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.shash.earphonemodeoff.databinding.ActivityWelcomeBinding
 import com.shash.earphonemodeoff.utils.InternetUtils
-import com.shash.earphonemodeoff.utils.extensions.expireDemoApp
-import com.shash.earphonemodeoff.utils.extensions.getInterstitialAdUnitId
-import com.shash.earphonemodeoff.utils.extensions.showAlertDialog
-import com.shash.earphonemodeoff.utils.extensions.startNewActivity
+import com.shash.earphonemodeoff.utils.extensions.*
 import com.shash.earphonemodeoff.view.ui.main.MainActivity
 
 class WelcomeActivity : AppCompatActivity() {
@@ -50,12 +47,14 @@ class WelcomeActivity : AppCompatActivity() {
     }
 
     private fun observe() {
-        if (InternetUtils.checkConnectivity(this)) {
+        val hasInternet = InternetUtils.checkConnectivity(this)
+        binding.alertTV.visible(!hasInternet)
+        if (hasInternet) {
             loadInterstitialAd()
         } else {
             Handler(Looper.getMainLooper()).postDelayed({
                 startNewActivity(MainActivity::class.java)
-            }, 600)
+            }, 800)
         }
     }
 

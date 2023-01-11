@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import com.shash.earphonemodeoff.BuildConfig
+import com.shash.earphonemodeoff.utils.InternetUtils
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -100,4 +101,7 @@ fun Activity.expireDemoApp(dateString: String):Boolean
     return System.currentTimeMillis()>=expDateInMilli
 
 }
+
+fun Activity.progressDelayTime():Long= if (InternetUtils.checkConnectivity(this)) 20 else 300
+
 

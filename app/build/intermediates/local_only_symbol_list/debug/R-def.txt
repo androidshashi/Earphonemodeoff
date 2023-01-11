@@ -42,6 +42,7 @@ drawable thumbnail_video
 drawable track_selector
 drawable wave
 id action_share
+id alertTV
 id appBarLayout
 id app_bar_main
 id bannerContainerLL
@@ -75,6 +76,8 @@ id nav_rate_us
 id nav_share_this_app
 id nav_tnc
 id nav_view
+id netAlertTV
+id progressBar
 id progressText
 id progress_bar
 id ratingBar
@@ -136,6 +139,8 @@ string nav_header_title
 string nav_open
 string note_this_method_is_route_the_audio_to_speaker_or_earphone_nuse_on_off_switch_for_routing_audio
 string note_this_method_to_change_system_setting_to_speaker_mode
+string please_connect_to_internet
+string please_connect_to_internet_for_faster_scanning
 string please_keep_app_running_in_the_background_for_uninterrupted_sound_nnote_some_devices_showing_earphone_plugged_in_is_a_hardware_problem_3_5_jack_problem_we_use_route_earphone_3_5mm_jack_audio_to_mobile_phone_speaker_nif_this_app_does_not_support_your_device_please_wait_for_next_update_we_are_working_hard_to_make_this_app_support_all_mobile_hardware_devices
 string privacy_policy
 string reset

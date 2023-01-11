@@ -4,15 +4,15 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.techyganesh.earphonemodeofff",
+  "applicationId": "com.techyganesh.earphonemodeoff",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 3,
-      "versionName": "1.1.0",
+      "versionCode": 4,
+      "versionName": "1.1.1",
       "outputFile": "AndroidManifest.xml"
     }
   ],

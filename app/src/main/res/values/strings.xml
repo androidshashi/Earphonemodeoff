@@ -28,4 +28,6 @@
     <string name="video_tutorial">Video Tutorial</string>
     <string name="communication">Communication</string>
     <string name="scanning_please_wait">Scanning please wait..</string>
+    <string name="please_connect_to_internet">Please connect to internet.</string>
+    <string name="please_connect_to_internet_for_faster_scanning">Please connect to internet for faster scanning.</string>
 </resources>
